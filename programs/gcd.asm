@@ -5,7 +5,7 @@ potencias: .word 1000000000, 100000000, 10000000, 1000000, 100000, 10000, 1000, 
 
         .text
 main:   addi $a0, $zero, 84
-        addi $a1, $zero, 36
+        addi $a1, $zero,   36
         jal  mcd
         jal  imprimir_resultado      # 12
         addi $a0, $zero, 17
